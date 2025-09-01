@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+*.log
+*.local
+
+# Prevent build artifacts in source directories
+scripts/*.js
+scripts/*.d.ts
+scripts/*.map
+src/**/*.js
+src/**/*.d.ts
+src/**/*.map
+
+*.json
